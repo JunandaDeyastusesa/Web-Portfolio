@@ -57,7 +57,7 @@ nav {
 /* Section Home */
 
 .container {
-  padding-left: 122px;
+  padding-left: 110px;
   padding-right: 122px;
 }
 
@@ -74,7 +74,7 @@ nav {
 }
 
 .about h3 {
-  color: #FFF176;
+  color: #FF9B26;
   font-family: Poppins;
   font-size: 25px;
   font-style: normal;
@@ -93,7 +93,7 @@ nav {
 }
 
 .about hr {
-  border: 2px solid #FFF176;
+  border: 2px solid #FF9B26;
   width: 150px;
   margin-left: 0px;
 }
@@ -190,7 +190,7 @@ nav {
   align-items: center;
   margin-bottom: 20px;
   border-radius: 10px;
-  background-color: #FFFBD9;
+  background-color: #ffffff;
 }
 
 .card-master .isi-content {
@@ -294,7 +294,7 @@ nav {
 }
 
 .grid-item {
-  background-color: #fdfeff;
+  background-color: #ffffff;
   color: #000000;
   border-radius: 15px;
   font-size: 18px;
@@ -486,3 +486,35 @@ nav {
   cursor: pointer;
   transform: rotate(-90deg);
 }
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 10px 0;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .home {
+        padding: 30px 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
+

@@ -44,3 +44,8 @@ changeImages = function () {
 };
 changeImages();
 setInterval(changeImages, 500);
+
+function toggleMenu() {
+    var menuSmall = document.querySelector('.menu-small');
+    menuSmall.style.display = (menuSmall.style.display === 'block') ? 'none' : 'block';
+}
